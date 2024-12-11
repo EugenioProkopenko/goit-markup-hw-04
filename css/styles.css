@@ -2,7 +2,6 @@
   font-family: 'Roboto', sans-serif;
   color: #434455;
   background-color: #ffffff;
-  text-transform: capitalize;
 }
 h1,
 h2,
@@ -70,9 +69,12 @@ img {
   width: 48px;
   position: absolute;
   height: 4px;
-  background: #404bbf;
+  background-color: #404bbf;
   display: block;
   margin-top: 20px;
+
+  left: 0;
+  bottom: -1px;
 }
 
 .header-nav {
@@ -95,6 +97,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  position: relative;
 }
 .contacts-list {
   display: flex;
@@ -144,7 +147,6 @@ img {
   max-width: 496px;
   margin-left: auto;
   margin-right: auto;
-  padding: 188px 0 48px;
 }
 .hero-button {
   font-family: 'Roboto', sans-serif;
@@ -258,7 +260,6 @@ img {
 .avatar-container {
   flex-direction: column;
   padding: 32px 0;
-  display: flex;
   row-gap: 8px;
 }
 .list-blok {
@@ -331,8 +332,6 @@ img {
   border: 1px solid #e7e9fc;
   border-top: none;
   row-gap: 8px;
-
-  display: flex;
 }
 .portfolio-list-text {
   font-weight: 400;
