@@ -305,6 +305,21 @@ img {
 .list-blok {
   background-color: #ffffff;
 }
+.social-links {
+  display: flex;
+  text-align: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+.icon {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  justify-content: center;
+  fill: #4d5ae5;
+}
+
 /*--------------------------section 4 portfolio----------------*/
 .list-avatar {
 }
