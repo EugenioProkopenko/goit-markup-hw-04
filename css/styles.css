@@ -307,18 +307,29 @@ img {
 }
 .social-links {
   display: flex;
-  text-align: center;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-.icon {
+.item-icon {
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  justify-content: center;
-  fill: #4d5ae5;
+  background-color: #4d5ae5;
 }
+
+.icon-avatar {
+  fill: none;
+  stroke: #f4f4fd;
+}
+.icon {
+}
+
+/*justify-content: center;*/
 
 /*--------------------------section 4 portfolio----------------*/
 .list-avatar {
