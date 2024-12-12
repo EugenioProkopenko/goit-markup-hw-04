@@ -33,6 +33,8 @@ img {
 /*-------------------header------------------------------------*/
 .pade-header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
   max-width: 1158px;
@@ -42,8 +44,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .logo {
@@ -282,6 +282,8 @@ img {
 .list-blok {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .title-avatar {
@@ -316,17 +318,33 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /*width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;*/
+}
+
+.icon-avatar {
+  display: flex;
+  fill: none;
+  stroke: #f4f4fd;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
-
-.icon-avatar {
-  fill: none;
-  stroke: #f4f4fd;
+.icon-avatar:hover,
+.icon-avatar:focus {
+  background-color: #404bbf;
 }
 .icon {
+  /* width: 16;
+  height: 16;*/
 }
 
 /*justify-content: center;*/
