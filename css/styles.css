@@ -330,6 +330,8 @@ img {
   display: flex;
   fill: none;
   stroke: #f4f4fd;
+  border-radius: 50%;
+  background-color: #4d5ae5;
 
   width: 100%;
   height: 100%;
