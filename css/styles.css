@@ -467,13 +467,20 @@ img {
   color: #f4f4fd;
   max-width: 264px;
 }
-.title-link-footer {
+.container-link {
+  display: flex;
+  align-items: baseline;
+  margin-right: 120px;
+}
+.text-link-footer {
   display: inline-block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 .social-links-footer {
   display: flex;
@@ -481,7 +488,6 @@ img {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  padding: auto;
 }
 .item-icon-footer {
   display: flex;
